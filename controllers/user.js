@@ -1,6 +1,7 @@
 import { User } from "../models/user.js";
 import bcrypt from "bcryptjs";
 import { setcookies } from "../utils/features.js";
+import {ErrorHandler} from "../middleware.error.js";
 
 
 
